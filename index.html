@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coupon Code Finder</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-100">
+
+    <header class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Coupon Code Finder</h1>
+            <nav>
+                <a href="#" class="mr-4">Home</a>
+                <a href="#">Categories</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto mt-8">
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">Top Stores</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Store Card -->
+                <div class="bg-white p-4 rounded-lg shadow-md store-card">
+                    <img src="images/amazon.png" alt="Amazon">
+                    <h3 class="text-xl font-bold mb-2">Amazon</h3>
+                    <p class="text-gray-700 mb-2">Upto 4.8% Voucher Rewards</p>
+                    <button class="bg-blue-500 text-white py-2 px-4 rounded show-coupon">View Coupons</button>
+                </div>
+                <!-- Repeat Store Card for other stores -->
+                <div class="bg-white p-4 rounded-lg shadow-md store-card">
+                    <img src="images/flipkart.png" alt="Flipkart">
+                    <h3 class="text-xl font-bold mb-2">Flipkart</h3>
+                    <p class="text-gray-700 mb-2">Upto 7% Rewards</p>
+                    <button class="bg-blue-500 text-white py-2 px-4 rounded show-coupon">View Coupons</button>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-2xl font-bold mb-4">Trending Categories</h2>
+            <div class="flex space-x-4 overflow-x-auto py-2">
+                <button class="bg-blue-500 text-white py-2 px-4 rounded category-button" data-category="Mobiles & Tablets">Mobiles & Tablets</button>
+                <button class="bg-gray-300 text-black py-2 px-4 rounded category-button" data-category="Fashion">Fashion</button>
+                <button class="bg-gray-300 text-black py-2 px-4 rounded category-button" data-category="Beauty & Health">Beauty & Health</button>
+                <!-- Repeat for other categories -->
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 offers-section">
+                <!-- Coupon Card -->
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">60% Off on Electronics</h3>
+                    <p class="text-gray-700 mb-4">Amazon</p>
+                    <button class="bg-red-500 text-white py-2 px-4 rounded show-coupon">Show Coupon</button>
+                </div>
+                <!-- Repeat Coupon Card for other coupons -->
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">75% Off on Fashion</h3>
+                    <p class="text-gray-700 mb-4">Flipkart</p>
+                    <button class="bg-red-500 text-white py-2 px-4 rounded show-coupon">Show Coupon</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-blue-600 text-white py-4 mt-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Coupon Code Finder. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

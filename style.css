@@ -1,0 +1,69 @@
+/* style.css */
+
+/* Custom styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+header {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-family: 'Arial Black', sans-serif;
+}
+
+header nav a {
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #d1d5db; /* Tailwind's gray-300 */
+}
+
+/* Buttons */
+button {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Store Cards */
+.store-card img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.store-card {
+    transition: transform 0.3s;
+}
+
+.store-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .store-card img {
+        width: 80px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+}
