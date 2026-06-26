@@ -1,4 +1,4 @@
-# Perk Hunter – AI-Powered Coupon & Affiliate Link Discovery Platform
+# Perk Hunter – YouTube-Based Coupon & Affiliate Link Discovery Platform
 
 Developed **Perk Hunter**, a web-based platform that helps users discover the latest discounted affiliate links and promotional offers for their favorite brands by extracting publicly available links from YouTube video descriptions. The platform automates the process of finding valid creator-sponsored deals, allowing users to save time and money while shopping online.
 
