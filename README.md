@@ -4,6 +4,7 @@ Developed **Perk Hunter**, a web-based platform that helps users discover the la
 
 ### Key Features
 
+* Live link: https://perkhunter.vercel.app/
 * Search brand-specific affiliate links (e.g., Byju's, Hostinger, NordVPN, etc.)
 * Automatically extracts promotional links from YouTube video descriptions
 * Filters recently uploaded videos to prioritize active and non-expired offers
