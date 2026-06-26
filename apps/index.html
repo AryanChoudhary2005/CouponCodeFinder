@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Coupon Codes & Sponsor Links</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    
+</head>
+<body>
+    <div class="main-header">
+        <div class="header">
+            <div class="header-left-section">
+                <div class="guide">
+                    <p class="question-mark">?</p>
+                    <p class="guide-text">Guide</p>
+                </div>
+                <div class="language">
+                    <img src="/img/uk-flag.png">
+                    <div class="language-text">English</div>
+                </div>
+            </div>
+            <div class="header-right-section">
+                <div><button class="log-in" onclick="redirectToLogin()">Login</button></div>
+                <div><button class="sign-up" onclick="redirectToLogin()">SignUp</button></div>
+            </div>
+        </div>
+        <div class="sub-header">
+            <div class="logo">
+                <img src="/img/perkhunter.png">
+            </div>
+            <form class="sub-header-search" id="searchForm">
+                <input type="text" id="searchQuery" class="search-bar" placeholder="Enter Keyword Here..." required>
+                <div class="sub-header-category">
+                    <button class="category-button">Select Your category<i class="fas fa-angle-down stretched-caret"></i></button>
+                    <div class="category-content">
+                        <a href="#">Deals</a>
+                        <a href="#">Coupons</a>
+                    </div>
+                </div>
+                <div class="sub-header-search-button">
+                    <img src="/img/search.svg">
+                </div>
+            </form>
+            <div class="sub-header-cart">       
+                <div class="cart-logo">
+                    <img src="/img/cart.svg">
+                </div>
+                <div class="cart-info">
+                    <div class="cart-count">0</div>
+                    <div class="cart-text">Cart</div>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="menu-links">
+                <div class="menu-home">Home</div>
+                <div class="menu-deals">
+                    <button class="menu-deals-button">Deals<i class="fas fa-angle-down stretched-caret"></i></button>
+                    <div class="menu-deals-content">
+                        <a href="#">Most Popular</a>
+                        <a href="#">Best Deals</a>
+                    </div>
+                </div>
+                <div class="menu-coupons">
+                    <button class="menu-coupons-button">Coupons<i class="fas fa-angle-down stretched-caret"></i></button>
+                    <div class="menu-coupons-content">
+                        <a href="#">Most Popular</a>
+                        <a href="#">Best coupons</a>
+                    </div>
+                </div>
+                <div class="menu-contact-us">Contact Us</div>
+                <div class="menu-blog">Blog</div>
+            </div>
+        </div>
+    </div>
+    <div class="main-body">
+        <div class="upper-main-body">
+            <div class="upper-main-body-categories">
+                <div class="categories-beauty"><i class="fa fa-female"></i><span class="stick">|</span>Beauty</div>
+                <div class="categories-events"><i class="fa fa-calendar"></i><span class="stick">|</span>Events</div>
+                <div class="categories-fashion"><i class="fas fa-tshirt"></i><span class="stick">|</span>Fashion</div>
+                <div class="categories-fitness"><i class="fas fa-heartbeat"></i><span class="stick">|</span>Fitness</div>
+                <div class="categories-foodanddrink"><i class="fa fa-cutlery"></i><span class="stick">|</span>Food & Drink</div>
+                <div class="categories-furniture"><i class="fas fa-couch"></i><span class="stick">|</span>Furniture</div>
+                <div class="categories-shopping"><i class="fa fa-shopping-cart"></i><span class="stick">|</span>Shopping</div>
+                <div class="categories-travel"><i class="fa fa-plane"></i><span class="stick">|</span>Travel</div>
+                <div class="categories-all-categories">ALL CATEGORIES</div>
+            </div>
+            <div class="upper-main-body-banner">
+                <div class="upper-main-body-banner-images">
+                    <img src="/img/banner1.jpg" alt="Image 1">
+                    <img src="/img/banner2.jpg" alt="Image 2">
+                    <img src="/img/banner3.jpg" alt="Image 3">
+                </div>
+            </div>
+        </div>
+        <div class="lower-main-body">
+            <div class="body-card-1">
+                <div class="body-card-1-image"><img src="/img/deals&coupons.png"></div>
+                <div class="text">
+                    <div class="body-card-1-title">Deals & Coupons</div>
+                    <div class="body-card-1-description">Find the best deals and coupons.</div>
+                </div>
+            </div>
+            <div class="body-card-2">
+                <div class="body-card-2-image"><img src="/img/bestOffers.png"></div>
+                <div class="text">
+                    <div class="body-card-2-title">Find Best Offers</div>
+                    <div class="body-card-2-description">We deliver offers you can't miss.</div>
+                </div>
+            </div>
+            <div class="body-card-3">
+                <div class="body-card-3-image"><img src="/img/money.png"></div>
+                <div class="text">
+                    <div class="body-card-3-title">Save Money</div>
+                    <div class="body-card-3-description">Shop with us to save your money.</div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="latest-deals">
+            <p class="latest-deals-text">Latest Deals</p>
+            <div class="latest-deals-button"><button>View All</button></div>
+        </div>
+    </div>
+    <div class="main-footer">
+        <div class="newletter">
+            <div class="newletter-text-upper"><i class="fas fa-envelope"></i>Sign up for our weekly email newsletter</div>
+            <div class="newletter-sign-up">
+                <div class="newletter-sign-up-input"><input class="newletter-sign-up-input-input" id="emailInput" placeholder="Your Email Address"></div>
+                <div class="newletter-sign-up-button"><button id="signUpButton" class="newletter-sign-up-button-button">SIGN UP</button></div>
+            </div>
+            <div class="newletter-text-lower">We will never share your email address with a third-party.</div>
+            <div id="message" class="message"></div>
+        </div>
+        <div class="footer">
+            <div class="footer-about">
+                <div class="footer-about-logo">
+                    <img class="footer-about-logo-logo" src="/img/perkhunter.png">
+                    <div class="footer-about-logo-text">PerkHunter</div>
+                </div>
+                <div class="footer-about-text">
+                    Greetings from Perk Hunter! Through selective affiliate links and sponsorships, we provide you with the finest offers. Helping you choose reputable companies and make educated decisions is our aim. 
+                    Cheers to your shopping!
+                </div>
+            </div>
+            <div class="footer-quick-links">
+                <div class="footer-quick-links-title">QUICK LINKS</div>
+                    <div class="footer-quick-links-text">
+                        <div class="footer-quick-links-latest-deals"><p>Latest Deals</p></div>
+                        <div class="footer-quick-links-newest-coupons"><p>Newest Coupons</p></div>
+                        <div class="footer-quick-links-termsandconditions"><p>Terms & Conditions</p></div>
+                        <div class="footer-quick-links-faqs"><p>FAQs</p></div>
+                    </div>
+                
+            </div>
+            <div class="footer-contact-us">
+                <div class="footer-contact-us-title">Contact Us</div>
+                    <div class="footer-contact-us-text">
+                        <div class="footer-contact-us-facebook"><i class="fab fa-facebook-f"></i>Facebook</div>
+                        <div class="footer-contact-us-instagram"><i class="fab fa-instagram"></i>Instagram</div>
+                        <div class="footer-contact-us-twitter"><i class="fab fa-twitter"></i>Twitter</div>
+                    </div>
+            </div>
+        </div>
+        <div class="copyrights">
+            Copyright 2022.NTCC-2024 . All rights reserved
+        </div>
+    </div>
+    <script>
+        function redirectToLogin() {
+            window.location.href = 'login.html';
+        }
+    </script>
+    <script src="/scripts/search_results_new_page.js"></script>
+    <script src="/scripts/banner_scrolling.js"></script>
+    <script src="/scripts/newsletter.js"></script>
+</body>
+</html>

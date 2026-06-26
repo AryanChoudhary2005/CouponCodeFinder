@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        #results {
+            margin: 20px;
+        }
+
+        .video-element {
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+
+        .video-element h3 {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .video-element a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        .video-element a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div id="results"></div>
+    <script src="/scripts/server.js"></script>
+</body>
+</html>
